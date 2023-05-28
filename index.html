@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+
+    <link  rel="stylesheet"   href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fb57ddc8bd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <p class="title">Qual música você deseja ouvir?</p>
+
+      <div class="carousel">
+        <div id="cardThings" data-song_path_name="things" class="card">
+          <img class="image" src="./lista/images/THINGS.jpg" />
+          <div class="card-informations">
+            <p class="card__song--name">Things</p>
+            <p class="card__author--name">Vintage Culture, Wolf Player, Jets</p>
+          </div>
+        </div>
+        <div id="cardCante" data-song_path_name="cante-por-nos" class="card">
+          <img class="image" src="./lista/images/CANTE_POR_NOS.jpg" />
+          <div class="card-informations">
+            <p class="card__song--name">Cante por nós</p>
+            <p class="card__author--name">Vintage Culture, Wolf Player, Jets</p>
+          </div>
+        </div>
+        <div id="cardFerroriginalremix" data-song_path_name="free-original" class="card">
+          <img class="image" src="./lista/images/FREE_ORIGINAL_REMIX.jpg" />
+          <div class="card-informations">
+            <p class="card__song--name">Free original remix</p>
+            <p class="card__author--name">Vintage Culture, Wolf Player, Jets</p>
+          </div>
+        </div>
+        <div id="cardMoveyourbody" data-song_path_name="move-your-body" class="card">
+          <img class="image" src="./lista/images/MOVE_YOUR_BODY.jpg" />
+          <div class="card-informations">
+            <p class="card__song--name">Move your body</p>
+            <p class="card__author--name">Vintage Culture, Wolf Player, Jets</p>
+          </div>
+        </div>
+        <div id="cardDreams" data-song_path_name="cali-dreams" class="card">
+          <img class="image" src="./lista/images/CALI_DREAMS.jpg" />
+          <div class="card-informations">
+            <p class="card__song--name">Cali Dreams</p>
+            <p class="card__author--name">Vintage Culture, Wolf Player, Jets</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-song-clicked no-text-card-clicked"></p>
+      <div id="audio" class="audio">
+        <audio id="audioPlay" controls>
+          <source src="" type="audio/mp3" />
+        </audio>
+      </div>
+    </div>
+    
+    <div class="line">
+    </div>
+
+    <footer>
+      <div class="footer__content">
+        
+        <ul class="socials">
+        
+          <li><a title="instagram" href="https://www.instagram.com/lucas_gadiel26/"><i id="iconInstagram" class="fa-brands fa-instagram"></i></a></li>
+         
+        </ul>
+      </div>
+
+      <div class="footer__bottom">
+        <p>copyright &copy;Lucas Gadiel Dos Santos </p>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

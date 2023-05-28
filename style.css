@@ -1,0 +1,174 @@
+body {
+  background: #141414;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  border: solid 2px #000000;
+  box-shadow: 0px 0px 99px 9px #0e0e0e;
+  height: 350px;
+  margin: 2px;
+  transition: 0.5s ease-in-out;
+  width: 250px;
+}
+
+.card.card:hover {
+  cursor: pointer;
+  position: relative;
+  -webkit-transform: scale(1.02);
+}
+
+.image {
+  height: 250px;
+  width: 100%;
+}
+
+.card__song--name {
+  color: #b3b3b3;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.card__author--name {
+  color: #b3b3b3;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+#audio {
+  margin-top: 25px;
+  text-align: center;
+}
+
+audio {
+  width: 80%;
+}
+
+::-webkit-media-controls-enclosure {
+  border-radius: 0;
+  background: #1ed790 !important;
+}
+
+.line {
+  align-items: center;
+  background: #272424 ;
+  display: flex;
+  flex-wrap: wrap;
+  height: 2px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 1500px;
+}
+
+.footer__content{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+footer h3{
+  color: #ffffff;
+}
+
+footer p{
+  color: #ffffff;
+}
+
+.socials{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -50px;
+  width: 100%;
+}
+
+footer i {
+  background: #ffffff;
+  border: solid 8px #ffffff;
+  border-radius: 50%;
+  color: #000000;
+  font-size: 35px;
+  margin-left: 3px;
+  margin-right: 3px;
+
+}
+
+.footer__bottom {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.card-clicked-song-name {
+  color: #1ED760;
+  margin: 0;
+}
+
+.card-author-name {
+  color: #B3B3B3;
+  margin: 0;
+  font-size: 14px;
+}
+
+.card-clicked {
+  border: solid 2px #6CD854;
+}
+
+.text-card-clicked {
+  color: #FFF !important;
+}
+
+.no-text-card-clicked {
+  color: #F01 !important;
+}
+
+.text-card-clicked .text-card-clicked-song-name {
+  margin: 0;
+  margin-top: 10px;
+  color: #1ED760 !important;
+}
+
+.text-card-clicked .text-card-clicked-author-name {
+  color: #B3B3B3 !important;
+  margin: 0;
+  font-size: 14px;
+}
+
+.text-song-clicked {
+  margin-top: 100px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+}
